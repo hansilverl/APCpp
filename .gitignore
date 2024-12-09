@@ -834,3 +834,4 @@ FodyWeavers.xsd
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#C++,OpenCV,VisualStudio
 /Ex2/Ex2/Ex2.vcxproj
+/Ex2/Ex2/Ex2.vcxproj.filters
