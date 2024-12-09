@@ -10,6 +10,6 @@ public:
 	void addNeighbor(Node* p_neighbor);
 	const std::vector<Node*>& getNeighbors();
 	bool nameIs(const std::string& input);
-	bool getName(std::string& output);
+	const std::string& getName() const; 
 	void print();
 };
