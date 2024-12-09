@@ -833,3 +833,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#C++,OpenCV,VisualStudio
+/Ex2/Ex2/Ex2.vcxproj
