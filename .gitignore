@@ -229,6 +229,12 @@ _pkginfo.txt
 # but keep track of directories ending in .cache
 !?*.[Cc]ache/
 
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.webinfo
+
+
 # Others
 ClientBin/
 ~$*
@@ -827,3 +833,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#C++,OpenCV,VisualStudio
+/Ex2/Ex2/Ex2.vcxproj
+/Ex2/Ex2/Ex2.vcxproj.filters
