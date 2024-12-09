@@ -1,3 +1,5 @@
+#ifndef NODE
+#define NODE
 #include <string>
 #include <vector>
 #include <iostream>
@@ -15,3 +17,4 @@ public:
 	const std::string& getName() const;
 	void print();
 };
+#endif // !NODE
