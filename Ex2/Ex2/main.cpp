@@ -7,6 +7,7 @@ int main() {
     Graph socialNetwork;
 
     // Adding users
+	std::cout << "Adding users:" << std::endl;
     socialNetwork.addNode("Alice");
     socialNetwork.addNode("Bob");
     socialNetwork.addNode("Hannah");
@@ -16,6 +17,7 @@ int main() {
 
 	socialNetwork.addNode("Bob");  // should print "already exists"
 
+	std::cout << "Adding friendships:" << std::endl;
     // Adding friendships
     socialNetwork.addEdge("Alice", "Bob");
     socialNetwork.addEdge("Bob", "Hannah");

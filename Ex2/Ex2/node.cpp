@@ -1,9 +1,7 @@
 #include "node.h"
 
 // copies the contents of the input parameter to the class name element. 
-Node::Node(const std::string& input) : name(input) {
-	this->name = input;
-}
+Node::Node(const std::string& input) : name(input) {}
 
 /*
 adds a friend to the list of friends saved in the neighbors variable.
